@@ -60,3 +60,7 @@
 .bg-image-right {
   background-image: url(../images/bg-login-right.png);
 }
+
+.remember-check:checked {
+  accent-color: #e37e03;
+}
