@@ -23,3 +23,40 @@
   font-weight: 700;
   font-style: italic;
 }
+
+.icon-wrapper {
+  position: relative;
+  width: 76px;
+  /* mesmo tamanho do maior svg */
+  height: 76px;
+}
+
+.icon-wrapper svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.big-icon-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.small-icon-logo {
+  width: 32px;
+  height: 32px;
+}
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-left {
+  background-image: url(images/bg-login-left.png);
+}
+
+.bg-image-right {
+  background-image: url(images/bg-login-right.png);
+}
