@@ -47,7 +47,7 @@ public class Card {
     private Project project;
 
     @OneToMany(
-        mappedBy = "task",
+        mappedBy = "card",
         cascade = CascadeType.ALL,
         orphanRemoval = true,
         fetch = FetchType.LAZY
